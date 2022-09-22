@@ -1,0 +1,51 @@
+{
+  "name": "tms_fe_24",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack serve",
+    "buildProd": "webpack --config webpack.config.prod.js",
+    "server": "json-server ./fakeServer/db.json -m ./node_modules/json-server-auth --port 3004"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
+    "babel-loader": "^8.2.5",
+    "json-server-auth": "^2.1.0",
+    "react-refresh": "^0.14.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  },
+  "dependencies": {
+    "@babel/plugin-syntax-jsx": "^7.18.6",
+    "@reduxjs/toolkit": "^1.8.3",
+    "axios": "^0.27.2",
+    "babel": "^6.23.0",
+    "formik": "^2.2.9",
+    "html-webpack-plugin": "^5.5.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "redux": "^4.2.0",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.1",
+    "styled-components": "^5.3.5",
+    "thunk": "^0.0.1"
+  },
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladisDalv/ProjectReact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladisDalv/ProjectReact/issues"
+  },
+  "homepage": "https://github.com/VladisDalv/ProjectReact#readme",
+  "description": ""
+}
