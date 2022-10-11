@@ -1,7 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-import App from "../App";
-
 
 const StyledElementTask = styled.div`
   .elementTask{
@@ -10,17 +8,17 @@ const StyledElementTask = styled.div`
     margin: 0 auto;
     border: 5px solid black;
     border-radius: 30px;
-    max-width: 700px;
-    min-height: 400px;
+    width: 700px;
+    min-height: 100px;
     
   }
 `
 
-const ElementTask = () =>{
+const ElementTask = (props) =>{
     return(
         <StyledElementTask>
             <div className='elementTask'>
-                ввввввввввввввв
+
             </div>
         </StyledElementTask>
 

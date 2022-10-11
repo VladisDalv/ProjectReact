@@ -10,4 +10,4 @@ import App from "./App.jsx";
 const root = ReactDom.createRoot(
     document.getElementById("root")
 );
-root.render(<App someName={'Gagagagag'}/> )
+root.render(<App someName={'Gagagagag'}/>)

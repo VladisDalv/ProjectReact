@@ -10,7 +10,6 @@ const StyledLoginPage = styled.div`
 const LoginPage = (props) =>{
     return (
         <StyledLoginPage>
-
             <Formik>
                 <Form>
                     <FormikInput name={'Login'} placeholder={'input login'} type={'email'}/>

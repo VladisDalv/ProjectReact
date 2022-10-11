@@ -8,10 +8,9 @@ const App = (props) => {
 
     return(
         <GlobalThemeWrapper>
-
             <MainLayout>
                 <ElementTask/>
-                {/*<Login/>*/}
+                <Login/>
             </MainLayout>
         </GlobalThemeWrapper>
     )
