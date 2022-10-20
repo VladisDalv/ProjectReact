@@ -18,7 +18,8 @@ const ElementTask = (props) =>{
     return(
         <StyledElementTask>
             <div className='elementTask'>
-
+                <input />
+                    <button type={"button"}>add a task</button>
             </div>
         </StyledElementTask>
 
@@ -26,3 +27,4 @@ const ElementTask = (props) =>{
 }
 
 export default ElementTask
+
